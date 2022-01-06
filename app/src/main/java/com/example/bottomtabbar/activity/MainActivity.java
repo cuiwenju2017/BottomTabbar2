@@ -50,7 +50,6 @@ public class MainActivity extends BaseActivity {
         fragments.add(new Fragment3());
         fragments.add(new Fragment4());
         fragments.add(new Fragment5());
-        vp.setOffscreenPageLimit(0);
         vp.setAdapter(new FragmentPagerAdapter(getSupportFragmentManager()) {
             @Override
             public Fragment getItem(int position) {

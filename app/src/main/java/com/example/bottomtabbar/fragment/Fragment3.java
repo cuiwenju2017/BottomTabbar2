@@ -13,7 +13,7 @@ public class Fragment3 extends LazyLoadFragment {
 
     @Override
     protected void lazyLoad() {
-        String message = "Fragment3" + (isInit ? "已经初始并已经显示给用户可以加载数据" : "没有初始化不能加载数据")+">>>>>>>>>>>>>>>>>>>";
+        String message = "Fragment3";
         showToast(message);
         Log.d(TAG, message);
     }
